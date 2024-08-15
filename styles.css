@@ -1,10 +1,7 @@
 :root {
-    --bgColor: #223344;
-    --bgColor2: #090a0f;
-    --accentColor: #FFF;
-    --font: 'Karla', sans-serif;
-    --delay: .3s;
-}
+  --text-color: #1a1c20;
+  --link-color: #4a76ee;
+  --background-color: #223344;
 
 * {
   margin: 0;
