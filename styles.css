@@ -1,9 +1,7 @@
 :root {
-  --text-color: #eeeff1; /* White */
-  --link-color: #4a76ee; /* Dark Blue */
-  --background-color: #1a1c20; /* Black */
-}
-
+  --text-color: #ffffff; /* White */
+  --link-color: #00008b; /* Dark Blue */
+  --background-color: #000000; /* Black */
 }
 
 * {
@@ -34,7 +32,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   padding: 0 50px;
   height: 80px;
 }
@@ -95,8 +92,8 @@ nav .right a span {
 }
 
 .hero-section .text .links a:hover {
-  color: var(--text-color);
-  border: 2px solid var(--text-color);
+  color: var(--background-color);
+  border: 2px solid var(--background-color);
 }
 
 .hero-section .headshot {
@@ -137,7 +134,6 @@ nav .right a span {
   justify-content: center;
   align-items: center;
   gap: 10px;
-
   width: 200px;
   padding: 10px 20px;
   margin: 10px;
@@ -238,7 +234,7 @@ nav .right a span {
 .contact-section .group form button {
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
-  color: #fff;
+  color: var(--background-color);
   background-color: var(--link-color);
   border: none;
   height: 50px;
